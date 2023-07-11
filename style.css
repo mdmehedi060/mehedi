@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.first-continer{
+  display: flex;
+  width: 100%;
+  background-color: #E55473;
+  margin-bottom: 100px;
+}
+.content{
+  margin: auto;
+  padding-left: 50px;
+  padding-top: 20px;
+  
+}
+.tittle{
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+}
+.discription{
+  color: #474747;
+  padding: 10px;
+  width:100%; 
+   font-size: 22px;
+}
+.btn{
+  padding: 18px 25px;
+  border: none;
+  background-color:palevioletred ;
+  color: white;
+  border-radius: 5px;
+}
+.img{
+  margin-right: 80px;
+  align-items: bottom;
+}
+.featured{
+  width: 100%;
+  background-color: #fff;
+  margin-top: 120px;
+
+}
+.images-flower{
+  display: flex;
+  gap: 5px;
+  margin: auto;
+  /* justify-content: space-around;
+  text-align: center; */
+  position: relative;
+}
+.images-title-one{
+margin-left: 30px;
+text-decoration: underline;
+display: flex;
+}
+.featured-img-1{
+background-color: hsla(270, 100%, 50%, 0.249);
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+padding: 20px;
+padding-bottom: 20px;
+text-align: center;
+margin-top: 100px;
+/* gap: 10px; */
+
+}
+
+.featured-img-2{
+background-color: hsla(204, 100%, 50%, 0.148);
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+padding: 20px;
+padding-bottom: 20px;
+text-align: center;
+margin-top: 100px;
+/* gap: 35px; */
+}
+
+.featured-img-3{
+background-color: rgba(0, 255, 238, 0.314);
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+padding: 20px;
+padding-bottom: 20px;
+text-align: center;
+margin-top: 100px;
+/* gap: 35px; */
+}
+/* .flower-tree{
+  display: flex;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+  list-style: none;
+  position: fixed;
+  gap: 30px;
+} */
+.featured-tittle{
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  width:100%;
+  text-align: center;
+  
+}
+.featured-disciption{
+  color: #474747;
+  padding: 20px;
+  width:100%; 
+  padding: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+.icon{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  background-color: #a9a9a97a;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  padding: 35px;
+  margin-bottom: 100px;
+}
+.instagram{
+  width: 100%;
+  margin-bottom: 100px;
+}
+.instragram-img{
+  display: flex;
+  gap: 5px;
+  margin-left: 50px;
+}
+.deals{
+background-image: url("./images/flower asset/rectangle 9.png");
+width: 1400px;
+height: 400px;
+margin: 100px;
+}
+.btn-email-subs{
+  display: flex;
+  text-align: center;
+  margin-left: 350px;
+  padding: 20px;
+}
+.email{
+  width: 550px;
+  margin-right: 20px;
+  padding: 17px;
+}
+.email-tatil{
+font-size: 30px;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  width:100%;
+  text-align: center;
+padding-top: 60px;
+}
+.footer{
+  width: 100%;
+  height: 500Px;
+  background-color: black;
+  margin-bottom: 100px;
+}
+.flower-footer{
+  color: red;
+}
+.shop{
+  color: white;
+}
+.footer-disciption{
+  color: white;
+   padding: 20px;
+  width:100%; 
+  padding: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+.footer-tittle{
+font-size: 55px;
+  font-weight: bold;
+  padding: 10px;
+  width:100%;
+  text-align: center;
+padding-top: 50px;
+}
+.copyright{
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 100px;
+}
+
