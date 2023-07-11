@@ -6,36 +6,47 @@
 .first-continer{
   display: flex;
   width: 100%;
-  background-color: #E55473;
-  margin-bottom: 100px;
+  height: 850px;
+  background-color: #e554800d;
+  
 }
 .content{
+  width: 708px;
+  height: 506px;
   margin: auto;
   padding-left: 50px;
   padding-top: 20px;
   
 }
 .tittle{
+  width: 708px;
+  height: 200px;
   font-size: 55px;
   font-weight: bold;
-  color: black;
+  color: #272727;
+ margin: auto;
 }
 .discription{
+  width: 634px;
+  height: 90px;
   color: #474747;
   padding: 10px;
   width:100%; 
-   font-size: 22px;
+   font-size: 24px;
+   margin: auto;
 }
 .btn{
   padding: 18px 25px;
   border: none;
-  background-color:palevioletred ;
+  background-color:#e55473;
   color: white;
   border-radius: 5px;
+  margin-top: 20px;
 }
 .img{
-  margin-right: 80px;
-  align-items: bottom;
+  width: 635px;
+height: 800px;
+  padding: 50px;
 }
 .featured{
   width: 100%;
@@ -44,19 +55,25 @@
 
 }
 .images-flower{
+  width: 1440px;
+  height: 605px;
   display: flex;
   gap: 5px;
   margin: auto;
-  /* justify-content: space-around;
-  text-align: center; */
+  justify-content: space-around;
+  text-align: center;
   position: relative;
 }
 .images-title-one{
 margin-left: 30px;
 text-decoration: underline;
-display: flex;
+
+position: absolute;
+justify-content: space-between;
 }
 .featured-img-1{
+  width: 464px;
+  height: 605px;
 background-color: hsla(270, 100%, 50%, 0.249);
 border-top-left-radius: 50%;
 border-top-right-radius: 50%;
@@ -69,6 +86,8 @@ margin-top: 100px;
 }
 
 .featured-img-2{
+  width: 464px;
+  height: 605px;
 background-color: hsla(204, 100%, 50%, 0.148);
 border-top-left-radius: 50%;
 border-top-right-radius: 50%;
@@ -80,6 +99,8 @@ margin-top: 100px;
 }
 
 .featured-img-3{
+  width: 464px;
+  height: 605px;
 background-color: rgba(0, 255, 238, 0.314);
 border-top-left-radius: 50%;
 border-top-right-radius: 50%;
@@ -89,16 +110,15 @@ text-align: center;
 margin-top: 100px;
 /* gap: 35px; */
 }
-/* .flower-tree{
+.flower-tree{
   display: flex;
   font-size: 20px;
   text-decoration: underline;
   font-weight: bold;
   color: black;
   list-style: none;
-  position: fixed;
   gap: 30px;
-} */
+}
 .featured-tittle{
   font-size: 55px;
   font-weight: bold;
