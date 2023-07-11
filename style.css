@@ -45,7 +45,7 @@
 }
 .img{
   width: 635px;
-height: 800px;
+height: 500px;
   padding: 50px;
 }
 .featured{
@@ -54,68 +54,64 @@ height: 800px;
   margin-top: 120px;
 }
 .featured-container{
-  width:100%;
-  height: 132px;
-  text-align: center;
+  width: 1920px;
+height: 4867px;
   
 }
 .images-flower{
-  width: 1440px;
-  height: 605px;
-  display: flex;
-  gap: 5px;
-  margin: auto;
-  justify-content: space-around;
-  text-align: center;
-  position: relative;
-  text-align: center;
-}
-.flower-tree{
-  
-margin-left: 30px;
-text-decoration: underline;
+  width: 1920px;
+height: 800px;
+display: flex;
+gap: 20px;
 text-align: center;
-
-
+justify-content: space-around;
 }
+.title-two{
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+/* margin-top: 150px; */
+text-align: center;
+}
+#problem-two{
+  margin-top: 200px;
+}
+#problem-three{
+  margin-top: 100px;
+}
+#problem-one{
+margin-top: 140px;
+}
+
 .featured-img-1{
   width: 464px;
-  height: 605px;
+height: 538px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
 background-color: hsla(270, 100%, 50%, 0.249);
-border-top-left-radius: 50%;
-border-top-right-radius: 50%;
-padding: 20px;
-padding-bottom: 20px;
-text-align: center;
-margin-top: 100px;
-/* gap: 10px; */
-
 }
 
 .featured-img-2{
   width: 464px;
-  height: 605px;
-background-color: hsla(204, 100%, 50%, 0.148);
-border-top-left-radius: 50%;
-border-top-right-radius: 50%;
-padding: 20px;
-padding-bottom: 20px;
-text-align: center;
-margin-top: 100px;
-/* gap: 35px; */
+height: 538px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15)
 }
 
 .featured-img-3{
   width: 464px;
-  height: 605px;
-background-color: rgba(0, 255, 238, 0.314);
-border-top-left-radius: 50%;
-border-top-right-radius: 50%;
-padding: 20px;
-padding-bottom: 20px;
-text-align: center;
-margin-top: 100px;
-/* gap: 35px; */
+height: 538px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+
+
 }
 .flower-tree{
   display: flex;
@@ -151,7 +147,7 @@ margin-top: 100px;
   background-color: #a9a9a97a;
   text-align: center;
   margin: auto;
-  margin-top: 300px;
+  margin-top: 50px;
   padding: 35px;
   margin-bottom: 100px;
 }
@@ -162,7 +158,7 @@ margin: auto;
 }
 .instagram{
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: px;
 }
 .instragram-img{
   display: flex;
@@ -195,11 +191,20 @@ font-size: 30px;
   text-align: center;
 padding-top: 60px;
 }
+.btn-sub{
+  padding: 18px 25px;
+  border: none;
+  background-color:#e55473;
+  color: white;
+  border-radius: 5px;
+  
+}
 .footer{
   width: 100%;
   height: 500Px;
   background-color: black;
   margin-bottom: 100px;
+  margin-top: 0;
 }
 .flower-footer{
   color: red;
